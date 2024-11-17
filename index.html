@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Villa</title>
+</head>
+<body>
+
+    <!-- Tombol Scroll ke Atas -->
+    <button id="backToTop" class="btn btn-primary btn-lg" title="Scroll to Top">
+        <i class="bi bi-chevron-double-up"></i>
+    </button>
+
+
+
+    <div class="contact-header">
+        <div>
+            <i class="fas fa-envelope"></i>
+            <span><a href="mailto:info@villaparadise.com">info@villaparadise.com</a></span>
+        </div>
+        <div>
+            <i class="fab fa-whatsapp"></i>
+            <span><a href="https://wa.me/1234567890" target="_blank">+123 456 7890</a></span>
+        </div>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Villa Paradise</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalog">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div id="villaCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active" style="background-image: url('assets/images\ \(1\).jfif');">
+                
+                <div class="carousel-caption">
+                    <h1>Welcome to Villa Paradise</h1>
+                    <p class="lead">Experience luxury and comfort like never before.</p>
+                    <a href="#about" class="btn btn-primary btn-lg my-5">Discover More</a>
+                    <!-- <h5>Luxurious Villa</h5>
+                    <p>Experience breathtaking views from our luxury villa.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/Villa-vendre-Bali-250x130.jpg');">
+                <div class="carousel-caption">
+                    <h1>Welcome to Villa Paradise</h1>
+                    <p class="lead">Experience luxury and comfort like never before.</p>
+                    <a href="#about" class="btn btn-primary btn-lg my-5">Discover More</a>
+                    <!-- <h5>Modern Interiors</h5>
+                    <p>Enjoy modern and elegant interiors with top-notch amenities.</p> -->
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/images\ \(3\).jfif');">
+                <div class="carousel-caption">
+                    <h1>Welcome to Villa Paradise</h1>
+                    <p class="lead">Experience luxury and comfort like never before.</p>
+                    <a href="#about" class="btn btn-primary btn-lg my-5">Discover More</a>
+                    <!-- <h5>Private Pool</h5>
+                    <p>Relax by your own private pool and soak up the sun.</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Us</h2>
+            <p class="lead">Villa Paradise is your ultimate escape from the hustle and bustle of everyday life. Nestled in nature, our villa offers unmatched serenity and comfort.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="assets/14093772.jpg" class="img-fluid" alt="Feature 1">
+                    <h5 class="mt-3">Luxury Rooms</h5>
+                    <p>Spacious and well-furnished rooms with modern amenities.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/484984495.jpg" class="img-fluid" alt="Feature 2">
+                    <h5 class="mt-3">Private Pool</h5>
+                    <p>Relax and unwind in our crystal-clear private pool.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/606818408.jpg" class="img-fluid" alt="Feature 3">
+                    <h5 class="mt-3">Scenic Views</h5>
+                    <p>Wake up to breathtaking views of nature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- catalog -->
+    <section id="catalog" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Catalog</h2>
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/14093772.jpg" class="card-img-top" alt="Villa 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Villa Sunset</h5>
+                            <p class="card-text">A beautiful villa with ocean views, perfect for a relaxing getaway.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted">$250 per night</span>
+                                <div class="d-flex align-items-center">
+                                    <!-- Rating Stars -->
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-half text-warning"></span>
+                                    <span class="ms-2">4.5</span> <!-- Rating Score -->
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3" type="button">Booking</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/484984495.jpg" class="card-img-top" alt="Villa 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Villa Harmony</h5>
+                            <p class="card-text">A serene escape surrounded by lush greenery, perfect for nature lovers.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted">$200 per night</span>
+                                <div class="d-flex align-items-center">
+                                    <!-- Rating Stars -->
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star text-muted"></span>
+                                    <span class="ms-2">4.0</span> <!-- Rating Score -->
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3" type="button">Booking</a>
+
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="assets/606818408.jpg" class="card-img-top" alt="Villa 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Villa Breeze</h5>
+                            <p class="card-text">Experience the breeze from the beachside villa with modern amenities.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-muted">$280 per night</span>
+                                <div class="d-flex align-items-center">
+                                    <!-- Rating Stars -->
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="bi bi-star-fill text-warning"></span>
+                                    <span class="ms-2">5.0</span> <!-- Rating Score -->
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary mt-3" type="button">Booking</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/14093772.jpg" class="img-fluid" alt="Gallery Image 1">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/484984495.jpg" class="img-fluid" alt="Gallery Image 2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/606818408.jpg" class="img-fluid" alt="Gallery Image 3">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/images (3).jfif" class="img-fluid" alt="Gallery Image 4">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/images.jfif" class="img-fluid" alt="Gallery Image 5">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <img src="assets/images (4).jfif" class="img-fluid" alt="Gallery Image 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-5 ">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <!-- Question 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the check-in and check-out times?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Check-in starts at 2:00 PM, and check-out is at 11:00 AM. Early check-ins or late check-outs can be arranged upon request and availability.
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Are pets allowed in the villas?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, pets are allowed in some villas with prior notice. Additional cleaning fees may apply. Please check the villa details or contact us for more information.
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Is Wi-Fi available in all villas?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, all villas are equipped with high-speed Wi-Fi for your convenience.
+                        </div>
+                    </div>
+                </div>
+                <!-- Question 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What amenities are included in the villas?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our villas include amenities such as air conditioning, fully equipped kitchens, private pools, and entertainment systems. Specific amenities may vary by villa.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row align-items-center">
+                <!-- Informasi Kontak -->
+                <div class="col-md-6">
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Alamat -->
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-geo-alt-fill me-3 fs-4 "></i>
+                            <div>
+                                <h5 class="mb-1">Our Address</h5>
+                                <p class="mb-0">Jl. Sunset Road No.123, Bali, Indonesia</p>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-envelope-fill me-3 fs-4 "></i>
+                            <div>
+                                <h5 class="mb-1">Email Us</h5>
+                                <p class="mb-0">info@villasunset.com</p>
+                            </div>
+                        </div>
+                        <!-- WhatsApp -->
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-whatsapp me-3 fs-4 "></i>
+                            <div>
+                                <h5 class="mb-1">WhatsApp</h5>
+                                <p class="mb-0">+62 812-3456-7890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Peta -->
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.5907725585617!2d115.17783317586869!3d-8.709927079449522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2471e5039bf8b%3A0xd25a5b55f7e0ec5a!2sBali%20Sunset%20Road!5e0!3m2!1sen!2sid!4v1697646659015!5m2!1sen!2sid" 
+                            allowfullscreen 
+                            loading="lazy"
+                            style="border:0;">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer class="footer py-3 text-center">
+        <div class="container">
+            <p>&copy; 2024 Villa Paradise. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Menyembunyikan atau menampilkan tombol berdasarkan posisi scroll
+        window.onscroll = function() {
+            var mybutton = document.getElementById("backToTop");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block"; // Tampilkan tombol
+            } else {
+                mybutton.style.display = "none"; // Sembunyikan tombol
+            }
+        };
+    
+        // Fungsi untuk menggulir ke atas saat tombol diklik
+        document.getElementById("backToTop").onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll halus ke atas
+        };
+    </script>
+</body>
+</html>
