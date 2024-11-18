@@ -107,7 +107,7 @@
     flex-direction: row; /* Default horizontal for larger screens */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     /* For screens smaller than 768px */
     #testimonials .carousel-inner {
         flex-wrap: nowrap;
