@@ -99,3 +99,26 @@
     background-color: #343a40;
     color: white;
 }
+
+
+/* Styling for the cards in the carousel */
+#testimonials .carousel-inner {
+    display: flex;
+    flex-direction: row; /* Default horizontal for larger screens */
+}
+
+@media (max-width: 768px) {
+    /* For screens smaller than 768px */
+    #testimonials .carousel-inner {
+        flex-wrap: nowrap;
+    }
+
+    #testimonials .carousel-item {
+        flex: 0 0 100%; /* Each slide takes up full width on mobile */
+    }
+
+    #testimonials .d-flex {
+        flex-direction: column; /* Stack cards vertically if necessary */
+        align-items: center;
+    }
+}
