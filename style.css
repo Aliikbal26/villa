@@ -55,7 +55,7 @@
 }
 
 .gallery-item img {
-    width: 90%; /* Gambar menyesuaikan lebar kolom */
+    width: 100%; /* Gambar menyesuaikan lebar kolom */
     height: 300px; /* Tinggi tetap */
     object-fit: cover; /* Potong gambar agar sesuai */
     border-radius: 10px; /* Opsional: Membuat sudut membulat */
